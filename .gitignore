@@ -1,0 +1,10 @@
+# Ignore contents in the data folder
+data/
+
+# Ignore contents in the chroma_db_chunk folder
+chroma_db_chunk/
+
+# Ignore all .log files
+*.log
+
+.ipynb_checkpoints
