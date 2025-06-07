@@ -106,9 +106,7 @@ df_asin.head()
 
 
 
-
-  <div id="df-f05c2f00-b1f3-43e7-a4b0-814baef5f45a" class="colab-df-container">
-    <div>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -189,216 +187,6 @@ df_asin.head()
   </tbody>
 </table>
 </div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-f05c2f00-b1f3-43e7-a4b0-814baef5f45a')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-f05c2f00-b1f3-43e7-a4b0-814baef5f45a button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-f05c2f00-b1f3-43e7-a4b0-814baef5f45a');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    <div id="df-22e03693-a10e-4b36-9d08-2cabec04680c">
-      <button class="colab-df-quickchart" onclick="quickchart('df-22e03693-a10e-4b36-9d08-2cabec04680c')"
-                title="Suggest charts"
-                style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-      </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-      <script>
-        async function quickchart(key) {
-          const quickchartButtonEl =
-            document.querySelector('#' + key + ' button');
-          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-          quickchartButtonEl.classList.add('colab-df-spinner');
-          try {
-            const charts = await google.colab.kernel.invokeFunction(
-                'suggestCharts', [key], {});
-          } catch (error) {
-            console.error('Error during call to suggestCharts:', error);
-          }
-          quickchartButtonEl.classList.remove('colab-df-spinner');
-          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-        }
-        (() => {
-          let quickchartButtonEl =
-            document.querySelector('#df-22e03693-a10e-4b36-9d08-2cabec04680c button');
-          quickchartButtonEl.style.display =
-            google.colab.kernel.accessAllowed ? 'block' : 'none';
-        })();
-      </script>
-    </div>
-
-    </div>
-  </div>
-
 
 
 
@@ -493,9 +281,7 @@ df_query_asin.query("product_id=='B01N5Y6002'")
 
 
 
-
-  <div id="df-8e6b1dc1-0074-447d-94b6-ae7906344520" class="colab-df-container">
-    <div>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -540,89 +326,6 @@ df_query_asin.query("product_id=='B01N5Y6002'")
   </tbody>
 </table>
 </div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-8e6b1dc1-0074-447d-94b6-ae7906344520')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-8e6b1dc1-0074-447d-94b6-ae7906344520 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-8e6b1dc1-0074-447d-94b6-ae7906344520');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    </div>
-  </div>
-
 
 
 
@@ -635,9 +338,7 @@ df_query_asin.head(50)
 
 
 
-
-  <div id="df-add6c0ea-7e40-4da0-afd2-23553cebc0b7" class="colab-df-container">
-    <div>
+<div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
@@ -1270,728 +971,6 @@ df_query_asin.head(50)
   </tbody>
 </table>
 </div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-add6c0ea-7e40-4da0-afd2-23553cebc0b7')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-add6c0ea-7e40-4da0-afd2-23553cebc0b7 button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-add6c0ea-7e40-4da0-afd2-23553cebc0b7');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-    <div id="df-d8f0efc0-b6e3-4a2f-a933-65b6a06a8495">
-      <button class="colab-df-quickchart" onclick="quickchart('df-d8f0efc0-b6e3-4a2f-a933-65b6a06a8495')"
-                title="Suggest charts"
-                style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-      </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-      <script>
-        async function quickchart(key) {
-          const quickchartButtonEl =
-            document.querySelector('#' + key + ' button');
-          quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-          quickchartButtonEl.classList.add('colab-df-spinner');
-          try {
-            const charts = await google.colab.kernel.invokeFunction(
-                'suggestCharts', [key], {});
-          } catch (error) {
-            console.error('Error during call to suggestCharts:', error);
-          }
-          quickchartButtonEl.classList.remove('colab-df-spinner');
-          quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-        }
-        (() => {
-          let quickchartButtonEl =
-            document.querySelector('#df-d8f0efc0-b6e3-4a2f-a933-65b6a06a8495 button');
-          quickchartButtonEl.style.display =
-            google.colab.kernel.accessAllowed ? 'block' : 'none';
-        })();
-      </script>
-    </div>
-
-    </div>
-  </div>
-
-
-
-
-
-```python
-df_query_asin.query("query=='#this is not a truck decals'")
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>example_id</th>
-      <th>query</th>
-      <th>query_id</th>
-      <th>product_id</th>
-      <th>product_locale</th>
-      <th>esci_label</th>
-      <th>small_version</th>
-      <th>large_version</th>
-      <th>split</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1610</th>
-      <td>1729</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07RTNBV6D</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1611</th>
-      <td>1730</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07TTTLXV2</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1612</th>
-      <td>1731</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07ZWH5QG5</td>
-      <td>us</td>
-      <td>E</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1613</th>
-      <td>1732</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08128BBS3</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1614</th>
-      <td>1733</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B084GZB83V</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1615</th>
-      <td>1734</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08ZSY5TJM</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1616</th>
-      <td>1735</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B084ZD9HX6</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1617</th>
-      <td>1736</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08BNPT9XG</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1618</th>
-      <td>1737</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08PQ6ZQCG</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1619</th>
-      <td>1738</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08M3H3MCR</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1620</th>
-      <td>1739</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08N6JL9Q4</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1621</th>
-      <td>1740</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07QPSMS91</td>
-      <td>us</td>
-      <td>E</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1622</th>
-      <td>1741</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08QJRKGQ1</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1623</th>
-      <td>1742</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08W5FDHMC</td>
-      <td>us</td>
-      <td>E</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1624</th>
-      <td>1743</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08XPTZH21</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1625</th>
-      <td>1744</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08XYKV1S6</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1626</th>
-      <td>1745</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08ZSY37XW</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1627</th>
-      <td>1746</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B08BNQC5CJ</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1628</th>
-      <td>1747</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07NZZSTJG</td>
-      <td>us</td>
-      <td>C</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1629</th>
-      <td>1748</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B01LXCNIYI</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1630</th>
-      <td>1749</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07HNN9LTG</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1631</th>
-      <td>1750</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07NDLGSXZ</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1632</th>
-      <td>1751</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B00AR9G6XO</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1633</th>
-      <td>1752</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B00CDVPEAA</td>
-      <td>us</td>
-      <td>E</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1634</th>
-      <td>1753</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B00J81CZC8</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1635</th>
-      <td>1754</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B00N16RH3S</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1636</th>
-      <td>1755</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B014JQ460U</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1637</th>
-      <td>1756</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B0178JD8B8</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1638</th>
-      <td>1757</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B018H3P6HI</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1639</th>
-      <td>1758</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B00U7QSJ28</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1640</th>
-      <td>1759</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B01A4O4Y58</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1641</th>
-      <td>1760</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B01A4O5ZRE</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1642</th>
-      <td>1761</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B06ZXY5P5H</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1643</th>
-      <td>1762</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B071FRF9CJ</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1644</th>
-      <td>1763</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07229R4T1</td>
-      <td>us</td>
-      <td>S</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1645</th>
-      <td>1764</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B076ZYDQJ8</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1646</th>
-      <td>1765</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B076ZZJJ4R</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1647</th>
-      <td>1766</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B018H3TRIW</td>
-      <td>us</td>
-      <td>I</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-    <tr>
-      <th>1648</th>
-      <td>1767</td>
-      <td>#this is not a truck decals</td>
-      <td>55</td>
-      <td>B07HNDPWZW</td>
-      <td>us</td>
-      <td>E</td>
-      <td>1</td>
-      <td>1</td>
-      <td>train</td>
-    </tr>
-  </tbody>
-</table>
-</div>
 
 
 
@@ -2054,7 +1033,7 @@ for i, cat in enumerate([["E"], ["C", "S"], ["I"]]):
 
 
     
-![png](output_20_1.png)
+![png](output_19_1.png)
     
 
 
@@ -2548,7 +1527,7 @@ plt.show()
 
 
     
-![png](output_52_0.png)
+![png](output_51_0.png)
     
 
 
@@ -2564,7 +1543,7 @@ plt.show()
 
 
     
-![png](output_53_0.png)
+![png](output_52_0.png)
     
 
 
@@ -2692,7 +1671,7 @@ plt.show()
 
 
     
-![png](output_56_0.png)
+![png](output_55_0.png)
     
 
 
@@ -2719,7 +1698,7 @@ plt.show()
 
 
     
-![png](output_57_0.png)
+![png](output_56_0.png)
     
 
 
@@ -3699,7 +2678,7 @@ plt.show()
 
 
     
-![png](output_75_0.png)
+![png](output_74_0.png)
     
 
 
@@ -3711,7 +2690,7 @@ plt.show()
 
 
     
-![png](output_76_0.png)
+![png](output_75_0.png)
     
 
 
@@ -3813,7 +2792,7 @@ if len(np.unique(y_true)) > 1:
 
 
     
-![png](output_77_1.png)
+![png](output_76_1.png)
     
 
 
@@ -3865,7 +2844,7 @@ plt.show()
 
 
     
-![png](output_78_0.png)
+![png](output_77_0.png)
     
 
 
