@@ -1,8 +1,20 @@
 Read the report [markdown](https://github.com/Jennifer-J-Li/relevance_gap_rag_llm/tree/main/RAG_LLM_for_Ads_Relevance_Evaluation_markdown) file for script and results.
 
 ## Objective
-"Difficult queries" are tail (queries least frequently searched by shoppers) search queries in specific product lines. Ads discoverbility in such queries is challenging. 
-Scientists tackle the retrieval by enriching ads engaged from similar queries, or matching similar non-ads products.
+
+**Business Problem:** Identified the limitations of ads relevance model in tail queries, which are usually "difficult queries" least frequently searched by shoppers. In these queries there were no ads coverage or ads engaments. 
+
+**Root cause:** Although Ads retrieval algorithms return an adeqaunt number of relevant candidates in such serach traffic, relevance model has limitation in inferring the implicit shopping intents from these queries, filtering out 50% - 80% candidates by flagging them irrelevant. 
+
+**Solution:** In some of these queries, shopper engaged with non-ads products. LLMs (Mistral) was adopted to 1) summarize the product descriptions, and 2) expand the original queries with implicit shopping intents, and lastly 3) evaluate ads relevance against the "rewritten" queries.
+
+**Deliverable:**
+* Sized the revenue gain in such queries assuming a more intelligent relevance model.
+* Before relevance model can be improved, identified a workaround by loosing relevance score threshold, which was optimized using ROC-AUC so that we can achieve maximum recall while retaining reasonable false positive rate.
+
+**NOTE:**
+This project use simulated data to showcase the problem solving and techniques as descripbed above, so final result numbers are also simulated.
+
 
 ## Overview
 
